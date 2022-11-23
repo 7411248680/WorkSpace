@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;GlobalException.java&apos; to &apos;order-service-test/src/main/java/com.dxc.orderservicetest.exception&apos;&#x0D;&#x0A;- Original project: &apos;account-service&apos;&#x0D;&#x0A;- Destination element: &apos;order-service-test/src/main/java/com.dxc.orderservicetest.exception&apos;&#x0D;&#x0A;- Original element: &apos;com.dxc.accountservice.exception.GlobalException.java&apos;" description="Copy compilation unit" destination="=order-service-test/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dxc.orderservicetest.exception" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dxc.accountservice.exception{GlobalException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667808882264" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+package learnLambdaExpression;
+
+public class LambdaExpression {
+	public static void main(String[] args) {
+		
+		
+		//lambda takes three argument 
+		//(argument list)
+		//->row-token 
+		//{body}
+		
+		//No Parameter Syntax
+ 
+		int width=10;
+		Drawable d=(a,b)->(a+b);
+		System.out.println(d.draw(10, 20));
+		
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package practice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class RemoveDublicate {
+
+public static void main(String[] args) {
+	
+	String str="name suneel name name suneel anil anil";
+	Set<String> set=new HashSet<String>();
+	
+	String[] str1=str.split(" ");
+	
+	for(int i=0;i<str1.length;i++)
+	{
+		set.add(str1[i]);
+	}
+	
+	System.out.println(set);
+	
+	set.stream().count();
+//	.filter((n)->n.length()>4)
+//	.forEach(n->System.out.println(n));
+	System.out.println(set.stream().count());
+}
+}

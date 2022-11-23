@@ -1,0 +1,42 @@
+package practice;
+
+public class Find {
+	public static void main(String[] args) {
+		
+		long m=262144;
+		int n=8;
+		int total=n;
+		boolean status=false;
+		int count=1;
+		int temp=1;
+while(total<m)
+{
+
+	for(int k=1;k<100;k++)
+	{
+		 temp=total*n;
+		total=temp;	
+		//i++;
+		count++;
+		
+	if(total==m)		
+	{
+		System.out.println("true");
+		status=true;
+		System.out.println("Power is:"+count);
+		break;
+	}
+	
+	}
+	
+
+}
+if(status==false)
+{
+	System.out.println("false");
+}
+
+
+	}
+
+}

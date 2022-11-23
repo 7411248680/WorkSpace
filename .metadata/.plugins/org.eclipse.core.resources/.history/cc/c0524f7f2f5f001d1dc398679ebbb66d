@@ -1,0 +1,33 @@
+package learnLambdaExpression;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class ProductSort {
+
+	public static void main(String[] args) {
+		List<Product> product=new ArrayList<Product>();
+		
+		product.add(new Product(1, "zim", 3000));
+		product.add(new Product(30, "apple", 200));
+		product.add(new Product(1, "pen", 50));
+		
+		product.forEach(
+				(n)->System.out.println(n.getId()+","+n.getName()+","+n.getPrice())
+				);
+		
+		System.out.print("");
+		
+		Collections.sort(product,(p1,p2)->{			
+			return p1.name.compareTo(p2.name);
+		});
+		
+		product.forEach(
+				(n)->System.out.println(n.getId()+","+n.getName()+","+n.getPrice())
+				);
+			
+
+	}
+
+}

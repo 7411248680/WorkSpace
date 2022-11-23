@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;order-service-test&apos;&#x0D;&#x0A;- Original project: &apos;order-service-test&apos;&#x0D;&#x0A;- Original element: &apos;com.dxc.orderservicetest.model.Order.Order()&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dxc.orderservicetest.model{Order.java[Order~Order!2" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1666415267229" subPackages="false" version="1.0"/>
+</session>

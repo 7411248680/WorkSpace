@@ -1,0 +1,30 @@
+package practice;
+
+public class Find {
+	public static void main(String[] args) {
+		
+		int m=100;
+		int n=10;
+		int total=0;
+		int status=0;
+int i=1;
+while(total<m)
+{
+	int temp=i*n;
+	total+=temp;
+	i++;
+	if(total==m)		
+	{
+		System.out.println("true");
+		status=1;
+	}	
+
+}
+if(status!=1)
+{
+	System.out.println("false");
+}
+
+	}
+
+}

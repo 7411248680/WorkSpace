@@ -1,0 +1,23 @@
+package practice;
+
+public class Find {
+	public static void main(String[] args) {
+		
+		int m=1000;
+		int n=10;
+		int total=0;
+		for(int i=1;i<m;i++)
+		{
+			total=i*n;
+			if(total==m && total<=m)
+			{
+				System.out.println("true");
+			}
+			else
+			{
+				System.out.println("false");
+			}
+		}
+	}
+
+}

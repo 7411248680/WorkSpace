@@ -1,5 +1,0 @@
-package com.dxc.accountservice.exception;
-
-public class GlobalException {
-
-}

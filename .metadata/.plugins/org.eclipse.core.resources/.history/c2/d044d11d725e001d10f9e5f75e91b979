@@ -1,5 +1,0 @@
-package com.dxc.accountservice.service;
-
-public interface AccountService1 {
-
-}

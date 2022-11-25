@@ -11,5 +11,23 @@ public class DublicateNumber {
 		
 		Set<Integer> set=new HashSet<Integer>();
 		
+		for(int a:number)
+		{
+			set.add(a);
+		}
+		System.out.println(set);
+
+		
+		
+		String str="sunil mail thing sunil";
+		String[] words=str.split(" ");
+		
+		Set<String> set1=new HashSet<String>();
+		for(String s:words)
+		{
+			set1.add(s);
+		}
+		System.out.println(set1);
+		
 	}
 }
